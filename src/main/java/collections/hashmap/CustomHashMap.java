@@ -4,6 +4,7 @@ import java.util.*;
 
 public class CustomHashMap<K, V> implements Map<K, V> {
     
+    /* Собственная реализцаия HashMap */
     static class Node<K, V> implements Map.Entry<K, V> {
         final int hash;
         final K key;
